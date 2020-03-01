@@ -1,0 +1,14 @@
+Language used   : Python
+Python Version  : 3 - pip3
+Framework       : Behave
+Selenium        : 2.53.-
+
+For Allure reports - Java 8 backend dependency is required.
+
+To generate allure report template: allure generate
+
+To run all the feature files:
+behave -f allure_behave.formatter:AllureFormatter -o ./allure-report  tests/features/*.feature
+
+To view the reports : allure serve allure-report
+

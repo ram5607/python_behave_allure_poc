@@ -1,0 +1,5 @@
+-i https://pypi.org/simple
+behave==1.2.6
+selenium==2.53.1
+webdriver-manager
+allure-behave==2.8.10
